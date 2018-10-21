@@ -91,7 +91,7 @@ public class RCTBluetoothSerialModule extends ReactContextBaseJavaModule impleme
         return "RCTBluetoothSerial";
     }
 
-    @Override
+
     public void onActivityResult(Activity activity, int requestCode, int resultCode, Intent intent) {
         if (D) Log.d(TAG, "On activity result request: " + requestCode + ", result: " + resultCode);
         if (requestCode == REQUEST_ENABLE_BLUETOOTH) {
@@ -129,7 +129,7 @@ public class RCTBluetoothSerialModule extends ReactContextBaseJavaModule impleme
         if (D) Log.d(TAG, "Host resume");
     }
 
-    @Override
+    
     public void onHostPause() {
         if (D) Log.d(TAG, "Host pause");
     }
