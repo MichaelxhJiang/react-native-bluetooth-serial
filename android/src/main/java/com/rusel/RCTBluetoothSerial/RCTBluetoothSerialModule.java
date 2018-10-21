@@ -118,7 +118,7 @@ public class RCTBluetoothSerialModule extends ReactContextBaseJavaModule impleme
         }
     }
 
-    @Override
+    
     public void onNewIntent(Intent intent) {
         if (D) Log.d(TAG, "On new intent");
     }
@@ -129,7 +129,7 @@ public class RCTBluetoothSerialModule extends ReactContextBaseJavaModule impleme
         if (D) Log.d(TAG, "Host resume");
     }
 
-    
+    @Override
     public void onHostPause() {
         if (D) Log.d(TAG, "Host pause");
     }
